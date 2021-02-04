@@ -66,7 +66,7 @@ namespace Ripple.Signing
                 }
                 return EdKeyPair.From128Seed(_seedBytes);
             }
-            pairIndex = _isNodeKey ? -1 : 0;
+            pairIndex = _isNodeKey ? -1 : pairIndex;
             var pair = K256KeyGenerator.From128Seed(_seedBytes, pairIndex);
             if (_isNodeKey)
             {
