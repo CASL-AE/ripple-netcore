@@ -118,6 +118,11 @@ namespace Ripple.Core.Enums
         public static readonly Uint32Field FinishAfter = new Uint32Field(nameof(FinishAfter), 37);
         public static readonly Uint32Field SignerListID = new Uint32Field(nameof(SignerListID), 38);
         public static readonly Uint32Field SettleDelay = new Uint32Field(nameof(SettleDelay), 39);
+        public static readonly Uint32Field TicketCount = new Uint32Field(nameof(TicketCount), 40);
+        public static readonly Uint32Field TicketSequence = new Uint32Field(nameof(TicketSequence), 41);
+        public static readonly Uint32Field TokenTaxon = new Uint32Field(nameof(TokenTaxon), 42);
+        public static readonly Uint32Field MintedTokens = new Uint32Field(nameof(MintedTokens), 43);
+        public static readonly Uint32Field BurnedTokens = new Uint32Field(nameof(BurnedTokens), 44);
 
         public static readonly Uint64Field IndexNext = new Uint64Field(nameof(IndexNext), 1);
         public static readonly Uint64Field IndexPrevious = new Uint64Field(nameof(IndexPrevious), 2);
@@ -172,6 +177,9 @@ namespace Ripple.Core.Enums
 
         // Added in rippled commit: e7f0b8eca69dd47419eee7b82c8716b3aa5a9e39
         public static readonly AmountField DeliveredAmount = new AmountField(nameof(DeliveredAmount), 18);
+        // Added in rippled commit: e7f0b8eca69dd47419eee7b82c8716b3aa5a9e39
+        public static readonly AmountField BrokerFee = new AmountField(nameof(BrokerFee), 19);
+
         // These are auxiliary fields
         // ReSharper disable once InconsistentNaming
         public static readonly AmountField taker_gets_funded = new AmountField(nameof(taker_gets_funded), 258);
@@ -246,6 +254,7 @@ namespace Ripple.Core.Enums
         public static readonly Vector256Field Indexes = new Vector256Field(nameof(Indexes), 1);
         public static readonly Vector256Field Hashes = new Vector256Field(nameof(Hashes), 2);
         public static readonly Vector256Field Features = new Vector256Field(nameof(Features), 3);
+        public static readonly Vector256Field TokenOffers = new Vector256Field(nameof(TokenOffers), 4);
 
         public static readonly Field Transaction = new Field(nameof(Transaction), 1, FieldType.Transaction);
         public static readonly Field LedgerEntry = new Field(nameof(LedgerEntry), 1, FieldType.LedgerEntry);
