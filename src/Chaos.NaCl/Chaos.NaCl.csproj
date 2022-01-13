@@ -2,6 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Product>Chaos.NaCl</Product>
+    <Company>Samy</Company>
+    <Description></Description>
+    <Copyright>Copyright ©  2021</Copyright>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <FileVersion>1.0.0</FileVersion>
+    <Authors>Xrpl</Authors>
+    <Version>1.0.0</Version>
+    <PackageLicenseUrl>https://github.com/ilianpinzon/ripple-dot-net/blob/master/LICENSE</PackageLicenseUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <RepositoryUrl>https://github.com/ilianpinzon/ripple-dot-net</RepositoryUrl>
   </PropertyGroup>
 
 </Project>

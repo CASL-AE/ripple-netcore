@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chaos.NaCl", "src\Chaos.NaC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ripple.Address", "src\Ripple.Address\Ripple.Address.csproj", "{745E3435-01FD-4A84-AF8D-E5408CB99855}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ripple.Core", "src\Ripple.Core\Ripple.Core.csproj", "{05D075DA-B4A9-422D-84F5-D7C19E390D12}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ripple.Core", "src\Ripple.Core\Ripple.Core.csproj", "{05D075DA-B4A9-422D-84F5-D7C19E390D12}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ripple.Signing", "src\Ripple.Signing\Ripple.Signing.csproj", "{826FE9FE-C7BD-4F27-BF6C-C8596F2BBC0B}"
 EndProject

@@ -39,6 +39,13 @@ namespace Ripple.Core.Types
         public static readonly TransactionType PaymentChannelClaim = Add(nameof(PaymentChannelClaim), 15);
 
         public static readonly TransactionType TrustSet = Add(nameof(TrustSet), 20);
+
+        public static readonly TransactionType NFTokenMint = Add(nameof(NFTokenMint), 25);
+        public static readonly TransactionType NFTokenBurn = Add(nameof(NFTokenBurn), 26);
+        public static readonly TransactionType NFTokenCreateOffer = Add(nameof(NFTokenCreateOffer), 27);
+        public static readonly TransactionType NFTokenCancelOffer = Add(nameof(NFTokenCancelOffer), 28);
+        public static readonly TransactionType NFTokenAcceptOffer = Add(nameof(NFTokenAcceptOffer), 29);
+
         public static readonly TransactionType EnableAmendment = Add(nameof(EnableAmendment), 100);
         public static readonly TransactionType SetFee = Add(nameof(SetFee), 101);
     }
